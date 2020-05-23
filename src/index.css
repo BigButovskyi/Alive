@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Anurati";
+  src: url("./assets/fonts/anurati.otf");
+}
+@font-face {
+  font-family: "Andromeda";
+  src: url("./assets/fonts/andromeda.ttf");
+}
+@font-face {
+  font-family: "Ailerons";
+  src: url("./assets/fonts/ailerons.otf");
+}

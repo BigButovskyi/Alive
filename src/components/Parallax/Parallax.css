@@ -1,0 +1,48 @@
+.Parallax{
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.mountain{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/images/parallax/mountains.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-clip: border-box;
+    background-attachment: fixed;
+}
+.alive{
+    position: absolute;
+    width: 100%;
+    top:50%;
+    color: white;
+    font-family: Andromeda;
+    font-size: 250px;
+    letter-spacing: 5px;
+}
+
+.al{
+    margin-left: 25%;
+}
+
+.ve{
+    margin-left: 7%;
+}
+
+.man{
+    position: absolute;
+    height: 60%;
+    bottom: -100px;
+    left:20%;
+}
+
+.clouds{
+    position: absolute;
+    width: 100%;
+    top:0;
+    opacity: 0.5;
+}
