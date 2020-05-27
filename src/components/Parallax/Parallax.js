@@ -8,15 +8,11 @@ class Parallax extends Component{
     state = {
         movement: {
             alive: {
-                speed: -0.5,
+                speed: 0.8,
                 transform: "translateY(0)"
             },
-            // man: {
-            //     speed: 0.2,
-            //     transform: "translateY(0)"
-            // },
             clouds: {
-                speed: -0.1,
+                speed: -0.8,
                 transform: "translateY(0)"
             },
             man: {
@@ -24,7 +20,7 @@ class Parallax extends Component{
                 transform: "translateY(0)"
             },
             mountains: {
-                speed: 0.08,
+                speed: 0.03,
                 transform: "translateY(0)"
             },
         }
@@ -59,8 +55,10 @@ class Parallax extends Component{
                     <span className={c.al}>AL</span>
                     <span className={c.ve}>VE</span>
                 </div>
-                <img style={{transform:this.state.movement.man.transform}} className={c.man} src={man} alt={"man"} />
-                <img style={{transform:this.state.movement.clouds.transform}} className={c.clouds} src={clouds} alt={"clouds"}/>
+                <div style={{transform:this.state.movement.man.transform}} className={c.man}></div>
+                <div className={c.cloudsParent}>
+                    <img style={{transform:this.state.movement.clouds.transform}} src={clouds} className={c.clouds} alt={"clouds"}/>
+                </div>
             </div>
         );
     }

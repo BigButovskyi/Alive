@@ -12,7 +12,7 @@ class PageContainer extends Component{
                 </header>
                 <main className={classes.main}>
                     <Parallax/>
-                    <section style={{width:"100%",height:"100vh"}}></section>
+                    <section style={{width:"100%",height:"100vh", background: "black"}}></section>
                 </main>
             </div>
         );
