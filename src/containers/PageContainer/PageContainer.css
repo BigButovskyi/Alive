@@ -14,7 +14,7 @@
 .main{
     z-index: 0;
     width: 100%;
-    transition: 1s ease;
+    transition: 4s ease;
 }
 
 .scrollSnap{
