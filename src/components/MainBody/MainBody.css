@@ -1,0 +1,9 @@
+.MainBody{
+    z-index: 0;
+    width: 100%;
+}
+
+.scrollSnap{
+    width: 100%;
+    height: 100vh;
+}

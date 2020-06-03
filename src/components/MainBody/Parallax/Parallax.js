@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import c from "./Parallax.css";
-import mountain from "../../assets/images/parallax/mountains.jpg";
-import man from "../../assets/images/parallax/man.png";
-import clouds from "../../assets/images/parallax/clouds.png";
+// import mountain from "../../../assets/images/parallax/mountains.jpg";
+// import man from "../../../assets/images/parallax/man.png";
+import clouds from "../../../assets/images/parallax/clouds.png";
 
 class Parallax extends Component {
     state = {
