@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/Alive/static/css/main.569e5b80.chunk.css",
-    "main.js": "/Alive/static/js/main.134e7f8f.chunk.js",
-    "main.js.map": "/Alive/static/js/main.134e7f8f.chunk.js.map",
+    "main.css": "/Alive/static/css/main.14d41833.chunk.css",
+    "main.js": "/Alive/static/js/main.cb009070.chunk.js",
+    "main.js.map": "/Alive/static/js/main.cb009070.chunk.js.map",
     "runtime-main.js": "/Alive/static/js/runtime-main.f84e6a70.js",
     "runtime-main.js.map": "/Alive/static/js/runtime-main.f84e6a70.js.map",
-    "static/js/2.5412e4d6.chunk.js": "/Alive/static/js/2.5412e4d6.chunk.js",
-    "static/js/2.5412e4d6.chunk.js.map": "/Alive/static/js/2.5412e4d6.chunk.js.map",
+    "static/js/2.17044ebe.chunk.js": "/Alive/static/js/2.17044ebe.chunk.js",
+    "static/js/2.17044ebe.chunk.js.map": "/Alive/static/js/2.17044ebe.chunk.js.map",
     "index.html": "/Alive/index.html",
-    "precache-manifest.bc377d0b06e31f893908a63085800768.js": "/Alive/precache-manifest.bc377d0b06e31f893908a63085800768.js",
+    "precache-manifest.047d3a3102ef5f874bb547c72dac5780.js": "/Alive/precache-manifest.047d3a3102ef5f874bb547c72dac5780.js",
     "service-worker.js": "/Alive/service-worker.js",
-    "static/css/main.569e5b80.chunk.css.map": "/Alive/static/css/main.569e5b80.chunk.css.map",
-    "static/js/2.5412e4d6.chunk.js.LICENSE.txt": "/Alive/static/js/2.5412e4d6.chunk.js.LICENSE.txt",
+    "static/css/main.14d41833.chunk.css.map": "/Alive/static/css/main.14d41833.chunk.css.map",
+    "static/js/2.17044ebe.chunk.js.LICENSE.txt": "/Alive/static/js/2.17044ebe.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Alive/static/media/anurati.ca8632f4.otf",
     "static/media/clouds.png": "/Alive/static/media/clouds.308ee0f6.png",
-    "static/media/Parallax.css": "/Alive/static/media/mountains.0e928193.jpg"
+    "static/media/divers.png": "/Alive/static/media/divers.5f6b8871.png",
+    "static/media/MountainsSlide.css": "/Alive/static/media/mountains.0e928193.jpg",
+    "static/media/ocean.png": "/Alive/static/media/ocean.37906d49.png",
+    "static/media/reef.png": "/Alive/static/media/reef.5847a8de.png",
+    "static/media/seagirl.png": "/Alive/static/media/seagirl.b56de899.png",
+    "static/media/turtle.png": "/Alive/static/media/turtle.9d423780.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f84e6a70.js",
-    "static/js/2.5412e4d6.chunk.js",
-    "static/css/main.569e5b80.chunk.css",
-    "static/js/main.134e7f8f.chunk.js"
+    "static/js/2.17044ebe.chunk.js",
+    "static/css/main.14d41833.chunk.css",
+    "static/js/main.cb009070.chunk.js"
   ]
 }
