@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import classes from "./MainBody.css";
-import Parallax from "./Parallax/Parallax";
+import MountainsSlide from "./Slides/MountainsSlide/MountainsSlide";
+import OceanSlide from "./Slides/OceanSlide/OceanSlide";
 import {sliderHandler} from "./scrollAnimation";
 
 class MainBody extends Component {
@@ -22,7 +23,7 @@ class MainBody extends Component {
                     position: currentPosition + 1,
                     timeAnimation: new Date().getTime()
                 });
-            } else if((!nextSlide) && currentPosition !== 1) {
+            } else if ((!nextSlide) && currentPosition !== 1) {
                 sliderHandler(this.state.position, false);
 
                 this.setState({
@@ -36,11 +37,8 @@ class MainBody extends Component {
     render() {
         return (
             <div onWheel={(e) => this.scrollHandler(e)} className={classes.MainBody}>
-                <Parallax/>
-                <section className={classes.scrollSnap} style={{
-                    background: "brown"
-                }}>
-                </section>
+                <MountainsSlide/>
+                <OceanSlide/>
                 <section style={{
                     background: "yellow"
                 }} className={classes.scrollSnap}>

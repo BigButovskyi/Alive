@@ -1,10 +1,8 @@
 import React, {Component} from "react";
-import c from "./Parallax.css";
-// import mountain from "../../../assets/images/parallax/mountains.jpg";
-// import man from "../../../assets/images/parallax/man.png";
-import clouds from "../../../assets/images/parallax/clouds.png";
+import c from "./MountainsSlide.css";
+import clouds from "../../../../assets/images/parallaxSlides/mountainSlide/clouds.png";
 
-class Parallax extends Component {
+class MountainsSlide extends Component {
     state = {
         movement: {
             alive: {
@@ -50,7 +48,7 @@ class Parallax extends Component {
 
     render() {
         return (
-            <div className={c.Parallax}>
+            <div className={c.MountainsSlide}>
                 <div style={{transform: this.state.movement.mountains.transform}} className={c.mountain}></div>
                 <div style={{transform: this.state.movement.alive.transform}} className={c.alive}>
                     <span className={c.al}>AL</span>
@@ -67,4 +65,4 @@ class Parallax extends Component {
 
 }
 
-export default Parallax;
+export default MountainsSlide;
