@@ -4,6 +4,17 @@ import PageContainer from "./containers/PageContainer/PageContainer";
 
 class App extends Component {
 
+    componentDidMount() {
+        window.addEventListener("load",this.loaded);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener("load",this.loaded);
+    }
+
+    loaded = () => {
+    };
+
     render() {
         return (
             <div className={classes.App}>

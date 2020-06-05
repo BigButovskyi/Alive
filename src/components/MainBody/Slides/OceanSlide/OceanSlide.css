@@ -5,6 +5,12 @@
     overflow: hidden;
 }
 
+.Ocean_video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .Wrapper_Ocean {
     position: relative;
     width: 100%;

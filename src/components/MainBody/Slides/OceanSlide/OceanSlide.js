@@ -5,16 +5,17 @@ import Reef from "../../../../assets/images/parallaxSlides/oceanSlide/reef.png";
 import SeaGirl from "../../../../assets/images/parallaxSlides/oceanSlide/seagirl.png";
 import Divers from "../../../../assets/images/parallaxSlides/oceanSlide/divers.png";
 import Turtle from "../../../../assets/images/parallaxSlides/oceanSlide/turtle.png";
+import oceanBackground from "../../../../assets/videos/ocean_background.mp4";
 
 class OceanSlide extends Component {
     state = {
         renderObjects: {
-            ocean: {
-                name: "Ocean",
-                image: Ocean,
-                speed: 0.1,
-                transform: "translateY(0px)"
-            },
+            // ocean: {
+            //     name: "Ocean",
+            //     image: Ocean,
+            //     speed: 0.1,
+            //     transform: "translateY(0px)"
+            // },
             reef: {
                 name: "Reef",
                 image: Reef,
@@ -85,8 +86,11 @@ class OceanSlide extends Component {
         });
         return (
             <div className={classes.OceanSlide}>
+                <video autoPlay muted loop className={classes.Ocean_video}>
+                    <source src={oceanBackground} type={"video/mp4"}/>
+                </video>
                 {slide}
-                <div style={{transform: this.state.renderObjects["label"].transform}}  className={classes.Wrapper_IS}>
+                <div style={{transform: this.state.renderObjects["label"].transform}} className={classes.Wrapper_IS}>
                     <div className={classes.I_letter}>I</div>
                     <div className={classes.S_letter}>S</div>
                 </div>
