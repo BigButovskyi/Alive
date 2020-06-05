@@ -23,19 +23,19 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 
 .Reef {
     height: 100%;
+    transform: translateY(50%);
 }
 
 .Wrapper_SeaGirl {
     position: absolute;
-    top: 10%;
+    top: -15%;
     width: 100%;
     height: 15%;
-
 }
 
 .SeaGirl {
@@ -46,7 +46,7 @@
 
 .Wrapper_Divers {
     position: absolute;
-    bottom: 0;
+    bottom: -20%;
     width: 100%;
     height: 40%;
 }
@@ -71,11 +71,30 @@
     transform: scaleX(-1);
 }
 
+.Wrapper_IS{
+    width: auto;
+    height:auto;
+    position: absolute;
+    top:20%;
+    right:15%;
+    font-family: Andromeda;
+    color: white;
+    font-size: 20em;
+}
+
+.I_letter{
+    display: inline-block;
+}
+
+.S_letter{
+    display: inline-block;
+}
+
 .FullSize{
     position: absolute;
     top:0;
     width: 100%;
     height: 100%;
-    background: #7c984626;
-    mix-blend-mode: luminosity;
+    background:#3a4d5d;
+    mix-blend-mode: saturation;
 }
