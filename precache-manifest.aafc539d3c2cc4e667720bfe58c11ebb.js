@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "611b67f595671d1906212a14d83b53b0",
+    "revision": "b2f514c40a51eadef9162bdd292fe7b9",
     "url": "/Alive/index.html"
   },
   {
-    "revision": "fda11339648b2b54c2be",
-    "url": "/Alive/static/css/main.fc3f0076.chunk.css"
+    "revision": "fe5fe7021c8e3e759ae8",
+    "url": "/Alive/static/css/main.af47bfe6.chunk.css"
   },
   {
     "revision": "6deb5b53170feb29b866",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Alive/static/js/2.da761b34.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fda11339648b2b54c2be",
-    "url": "/Alive/static/js/main.b5455b21.chunk.js"
+    "revision": "fe5fe7021c8e3e759ae8",
+    "url": "/Alive/static/js/main.08a127d6.chunk.js"
   },
   {
     "revision": "a23bb1beff35ec54b6c7",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "37906d4994248355d4d0733cca4db5c2",
     "url": "/Alive/static/media/ocean.37906d49.png"
+  },
+  {
+    "revision": "487b9822db2ad097c6d8e20a22c65797",
+    "url": "/Alive/static/media/ocean_background.487b9822.mp4"
   },
   {
     "revision": "5847a8deb9cc8a8533eaf96aef2ba6e0",
