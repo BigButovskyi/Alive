@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa1580d9c5af72bd0fa28bfbe7ecbe57",
+    "revision": "bdb52e2db988cf05b49353aebb2257fd",
     "url": "/Alive/index.html"
   },
   {
-    "revision": "915a2361ec3c07d4534d",
-    "url": "/Alive/static/css/main.72a7fb06.chunk.css"
+    "revision": "fbef0023b01d9dc05e07",
+    "url": "/Alive/static/css/main.872d97c1.chunk.css"
   },
   {
     "revision": "6deb5b53170feb29b866",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Alive/static/js/2.da761b34.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "915a2361ec3c07d4534d",
-    "url": "/Alive/static/js/main.08a127d6.chunk.js"
+    "revision": "fbef0023b01d9dc05e07",
+    "url": "/Alive/static/js/main.59f5c6de.chunk.js"
   },
   {
     "revision": "a23bb1beff35ec54b6c7",
