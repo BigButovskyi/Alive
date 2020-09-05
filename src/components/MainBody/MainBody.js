@@ -1,8 +1,9 @@
 import React, {Component} from "react";
 import classes from "./MainBody.css";
-import MountainsSlide from "./Slides/MountainsSlide/MountainsSlide";
-import OceanSlide from "./Slides/OceanSlide/OceanSlide";
-import {sliderHandler} from "./scrollAnimation";
+import MountainsParallax from "./MountainsParallax/MountainsParallax";
+import BackpackPart from "./BackpackPart/BackpackPart";
+import MaterialsPart from "./MaterialsPart/MaterialsPart";
+import Carousel from "./Carousel/Carousel";
 
 class MainBody extends Component {
 
@@ -11,38 +12,13 @@ class MainBody extends Component {
         timeAnimation: 0
     }
 
-    scrollHandler = (e) => {
-        let nextSlide = e.deltaY > 0;
-        let currentPosition = this.state.position;
-        let scrollTime = new Date().getTime();
-        if (scrollTime - this.state.timeAnimation > 2500) {
-            if (nextSlide && currentPosition !== 3) {
-                sliderHandler(this.state.position, true);
-
-                this.setState({
-                    position: currentPosition + 1,
-                    timeAnimation: new Date().getTime()
-                });
-            } else if ((!nextSlide) && currentPosition !== 1) {
-                sliderHandler(this.state.position, false);
-
-                this.setState({
-                    position: currentPosition - 1,
-                    timeAnimation: new Date().getTime()
-                });
-            }
-        }
-    };
-
     render() {
         return (
-            <div onWheel={(e) => this.scrollHandler(e)} className={classes.MainBody}>
-                <MountainsSlide/>
-                <OceanSlide/>
-                <section style={{
-                    background: "yellow"
-                }} className={classes.scrollSnap}>
-                </section>
+            <div className={classes.MainBody}>
+                <MountainsParallax/>
+                <BackpackPart/>
+                <MaterialsPart/>
+                <Carousel/>
             </div>
         );
     }

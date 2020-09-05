@@ -1,0 +1,74 @@
+.MaterialSection {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background: lightcoral;
+}
+
+
+.materialWrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.material {
+    width: 45%;
+    height: 600px;
+    position: relative;
+}
+
+.zipper {
+    background-image: url("../../../assets/images/materialsSlide/zip.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zipper h2 {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.high_word {
+    background: transparent;
+    color: white;
+}
+
+.quality_words {
+    background: white;
+    color: black;
+    mix-blend-mode: screen;
+}
+
+.bkp {
+    background-image: url("../../../assets/images/materialsSlide/bpkr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bkp h2{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.take_word {
+    background: white;
+    color: black;
+    mix-blend-mode: screen;
+}
+
+.anywhere_word {
+    background: transparent;
+    color: white;
+}
