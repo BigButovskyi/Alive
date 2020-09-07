@@ -1,0 +1,65 @@
+.CarouselElement{
+    position: relative;
+    height: 30vw;
+    width:  30vw;
+    margin-right: 5vw;
+    background: green;
+    user-select: none;
+    cursor: pointer;
+
+    --animationDuration: 0.3s;
+}
+
+.carousel_El_outer{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.saleHeader{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: var(--animationDuration) ease-out;
+}
+
+.saleHeader h2{
+    width: 100%;
+    height: auto;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    mix-blend-mode: screen;
+}
+
+.hover_div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.top_left_triangle{
+    position: absolute;
+    top:0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30vw 30vw 0 0;
+    border-color: black transparent transparent transparent;
+    transition: var(--animationDuration) ease-out;
+}
+
+.bottom_right_triangle{
+    position: absolute;
+    top:0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 30vw 30vw;
+    border-color:  transparent transparent blue transparent;
+    transition: var(--animationDuration) ease-out;
+}

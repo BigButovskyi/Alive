@@ -1,0 +1,9 @@
+.Carousel{
+    position: absolute;
+    top: 10%;
+    height: auto;
+    background: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
