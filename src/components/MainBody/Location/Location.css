@@ -2,29 +2,25 @@
     width: 100%;
     height: 600px;
     background: orange;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
-.locatioHeader{
+.locationHeader{
     width: 100%;
+    text-align: center;
+    height: auto;
+    text-transform: uppercase;
+    background: transparent;
 }
 
 .locationWrapper{
-    position: absolute;
-    top:10%;
-    left:5%;
     width: 90%;
     height: 80%;
+    margin: 0 auto;
     background: black;
     display: flex;
     flex-direction: row;
-}
-
-.contactUs{
-    width: 40%;
-    height: 100%;
-    background: blue;
-
 }
 
 .map{
@@ -34,4 +30,5 @@
     background-image: url("../../../assets/images/location/mapimage.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
