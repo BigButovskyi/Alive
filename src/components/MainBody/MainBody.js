@@ -5,6 +5,8 @@ import BackpackPart from "./BackpackPart/BackpackPart";
 import MaterialsPart from "./MaterialsPart/MaterialsPart";
 import CarouselSection from "./Carousel/CarouselSection";
 import Location from "./Location/Location";
+import ContactFormSection from "./ContactForm/ContactFormSection";
+import Aox from "../../hoc/Aox/Aox";
 
 class MainBody extends Component {
 
@@ -15,13 +17,14 @@ class MainBody extends Component {
 
     render() {
         return (
-            <div className={classes.MainBody}>
+            <Aox>
                 <MountainsParallax/>
                 <BackpackPart/>
                 <MaterialsPart/>
                 <CarouselSection/>
                 <Location/>
-            </div>
+                <ContactFormSection/>
+            </Aox>
         );
     }
 }
