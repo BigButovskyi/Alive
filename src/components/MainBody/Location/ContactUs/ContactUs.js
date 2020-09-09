@@ -17,7 +17,7 @@ const ContactUs = (props) => {
         },
         {
             className: "email",
-            title: "Email:",
+            title: "Email",
             value: ["b.butovskyi@gmail.com"]
         },
         {
