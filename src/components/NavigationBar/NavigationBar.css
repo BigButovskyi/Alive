@@ -1,0 +1,14 @@
+
+.NavigationBar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    background: linear-gradient(to top, transparent, black);
+    color: white;
+    z-index: 99;
+    font-family: Ailerons;
+    font-size: 40px;
+}

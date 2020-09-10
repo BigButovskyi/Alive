@@ -1,15 +1,16 @@
 import React, {Component} from 'react';
 import classes from './App.css';
+import Layout from "./hoc/Layout/Layout";
 import PageContainer from "./containers/PageContainer/PageContainer";
 
 class App extends Component {
 
     componentDidMount() {
-        window.addEventListener("load",this.loaded);
+        window.addEventListener("load", this.loaded);
     }
 
     componentWillUnmount() {
-        window.removeEventListener("load",this.loaded);
+        window.removeEventListener("load", this.loaded);
     }
 
     loaded = () => {
@@ -18,7 +19,9 @@ class App extends Component {
     render() {
         return (
             <div className={classes.App}>
-                <PageContainer/>
+                <Layout>
+                    <PageContainer/>
+                </Layout>
             </div>
         );
     }

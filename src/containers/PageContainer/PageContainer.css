@@ -1,12 +1,3 @@
 .PageContainer{
     width: 100%;
 }
-
-.PageContainer header{
-    z-index: 99;
-    position: fixed;
-    top:0;
-    left:0;
-    width: 100%;
-    height: auto;
-}

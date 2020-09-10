@@ -4,9 +4,9 @@ import classes from "./NavigationBar.css";
 class NavigationBar extends Component {
     render() {
         return (
-            <nav className={classes.NavigationBar}>
+            <header className={classes.NavigationBar}>
                 Hello, its me
-            </nav>
+            </header>
         );
     }
 }

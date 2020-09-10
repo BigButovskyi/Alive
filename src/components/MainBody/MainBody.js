@@ -12,19 +12,29 @@ class MainBody extends Component {
 
     state = {
         position: 1,
-        timeAnimation: 0
+        timeAnimation: 0,
+        transform: 0
     }
+
+    scrollHandler = () => {
+        return;
+        let clientY = window.pageYOffset;
+        let elYC = clientY * 1;
+        this.setState({
+            transform: elYC
+        });
+    };
 
     render() {
         return (
-            <Aox>
+            <div onWheel={this.scrollHandler} style={{transform: "translateY(" + this.state.transform + "px)"}}>
                 <MountainsParallax/>
                 <BackpackPart/>
                 <MaterialsPart/>
                 <CarouselSection/>
                 <Location/>
                 <ContactFormSection/>
-            </Aox>
+            </div>
         );
     }
 }

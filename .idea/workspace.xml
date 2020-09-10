@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e20779dc-183a-4dfc-ac67-1a3599a4d7ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/NavigationBar/NavigationBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Location/ContactUs/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Location/ContactUs/ContactUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactForm/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactForm/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactFormSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactFormSection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactFormSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactFormSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainBody/MainBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/MainBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/MaterialsPart/MaterialsPart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/MaterialsPart/MaterialsPart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Input/Input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/NavigationBar/NavigationBar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/NavigationBar/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBar/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/PageContainer/PageContainer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PageContainer/PageContainer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/PageContainer/PageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PageContainer/PageContainer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,19 +59,19 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEs\React\alive\src\components" />
+      <recent name="D:\IDEs\React\alive\src\components\MainBody\Carousel\Carousel" />
+      <recent name="D:\IDEs\React\alive\src\assets\images\parallaxSlides" />
+      <recent name="D:\IDEs\React\alive\src\assets\images\secondSlide" />
+      <recent name="D:\IDEs\React\alive\src\components\MainBody\BackpackPart" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IDEs\React\alive\src\assets\images\location" />
       <recent name="D:\IDEs\React\alive\src\assets\images\materialsSlide" />
       <recent name="D:\IDEs\React\alive\src\components\MainBody\MaterialsPart" />
       <recent name="D:\IDEs\React\alive\src\assets\images\secondSlide" />
       <recent name="D:\IDEs\React\alive\src\assets\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IDEs\React\alive\src\components\MainBody\Carousel\Carousel" />
-      <recent name="D:\IDEs\React\alive\src\assets\images\parallaxSlides" />
-      <recent name="D:\IDEs\React\alive\src\assets\images\secondSlide" />
-      <recent name="D:\IDEs\React\alive\src\components\MainBody\BackpackPart" />
-      <recent name="D:\IDEs\React\alive\src\components\MainBody" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -121,7 +132,9 @@
       <workItem from="1599219276060" duration="13073000" />
       <workItem from="1599283935164" duration="2873000" />
       <workItem from="1599471294033" duration="15766000" />
-      <workItem from="1599646323584" duration="12544000" />
+      <workItem from="1599646323584" duration="12668000" />
+      <workItem from="1599725996151" duration="8844000" />
+      <workItem from="1599763350075" duration="6094000" />
     </task>
     <task id="LOCAL-00001" summary="alive parallax project">
       <created>1590273448157</created>
@@ -242,7 +255,35 @@
       <option name="project" value="LOCAL" />
       <updated>1599657982900</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="change parent div to Aox">
+      <created>1599661292354</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599661292355</updated>
+    </task>
+    <task id="LOCAL-00019" summary="little fix">
+      <created>1599661309059</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599661309059</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added contact form section">
+      <created>1599661331057</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599661331057</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added input field with causes">
+      <created>1599661351592</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599661351592</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,64 +306,61 @@
     <MESSAGE value="some carousel fixes" />
     <MESSAGE value="update components, add contact us with paragraphs" />
     <MESSAGE value="HOC aox added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HOC aox added" />
+    <MESSAGE value="change parent div to Aox" />
+    <MESSAGE value="little fix" />
+    <MESSAGE value="added contact form section" />
+    <MESSAGE value="added input field with causes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added input field with causes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2" timestamp="1599657982320">
+    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2" timestamp="1599661350993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="271" y="29" width="1312" height="947" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1591399248228" />
-    <state x="217" y="23" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591118166216" />
-    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599657982320" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591104587497">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1591104587497" />
-    <state width="1899" height="273" key="GridCell.Tab.0.bottom" timestamp="1599653604071">
+    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599661350993" />
+    <state width="1899" height="273" key="GridCell.Tab.0.bottom" timestamp="1599768018617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="273" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1592577867622" />
     <state width="1899" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592475887604" />
-    <state width="1899" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599653604071" />
-    <state width="1899" height="273" key="GridCell.Tab.0.center" timestamp="1599653604071">
+    <state width="1899" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599768018617" />
+    <state width="1899" height="273" key="GridCell.Tab.0.center" timestamp="1599768018617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="273" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1592577867622" />
     <state width="1899" height="273" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592475887604" />
-    <state width="1899" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599653604071" />
-    <state width="1899" height="273" key="GridCell.Tab.0.left" timestamp="1599653604071">
+    <state width="1899" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599768018617" />
+    <state width="1899" height="273" key="GridCell.Tab.0.left" timestamp="1599768018617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="273" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1592577867622" />
     <state width="1899" height="273" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592475887604" />
-    <state width="1899" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599653604071" />
-    <state width="1899" height="273" key="GridCell.Tab.0.right" timestamp="1599653604071">
+    <state width="1899" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599768018617" />
+    <state width="1899" height="273" key="GridCell.Tab.0.right" timestamp="1599768018617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="273" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1592577867622" />
     <state width="1899" height="273" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592475887604" />
-    <state width="1899" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599653604071" />
+    <state width="1899" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599768018617" />
     <state x="463" y="139" width="1150" height="710" key="SettingsEditor" timestamp="1592382802800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="139" width="1150" height="710" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1592382802800" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1599661106626">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1599768540874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1592575786791" />
-    <state width="498" height="398" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1591117747379" />
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599661106626" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1599489496000">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599768540874" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1599661357407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1591399251287" />
-    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591118171234" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599489496000" />
-    <state x="646" y="236" width="627" height="568" key="find.popup" timestamp="1599659997686">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599661357407" />
+    <state x="646" y="236" width="627" height="568" key="find.popup" timestamp="1599772773778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="236" width="627" height="568" key="find.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1591437769102" />
-    <state x="646" y="236" width="627" height="568" key="find.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599659997686" />
+    <state x="646" y="236" width="627" height="568" key="find.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599772773778" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1599654401134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

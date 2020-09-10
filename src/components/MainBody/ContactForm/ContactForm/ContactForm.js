@@ -11,7 +11,7 @@ class ContactForm extends Component {
                 elementType:"input",
                 elementConfig:{
                     type:"text",
-                    placeholder:"Vladyslav Butovskyi"
+                    placeholder:"Your Name"
                 }
             },
             email:{
@@ -19,7 +19,7 @@ class ContactForm extends Component {
                 elementType:"input",
                 elementConfig:{
                     type:"email",
-                    placeholder:"b.butovskyi@gmail.com"
+                    placeholder:"Your email"
                 }
             },
             phone:{
@@ -27,7 +27,7 @@ class ContactForm extends Component {
                 elementType:"input",
                 elementConfig:{
                     type:"tel",
-                    placeholder:"+380950123225"
+                    placeholder:"Your phone num"
                 }
             },
             text:{
@@ -35,7 +35,10 @@ class ContactForm extends Component {
                 elementType:"textarea"
             },
             submit:{
-                elementType:"submit"
+                elementType:"submit",
+                elementConfig:{
+                    placeholder: "send"
+                }
             }
         }
     }

@@ -8,23 +8,27 @@ const input = (props) => {
     switch (props.elementType) {
         case ("input"):
             inputElement = (
-                <input type={props.elementConfig.type} placeholder={props.elementConfig.placeholder}/>);
+                <input className={classes.input} type={props.elementConfig.type}
+                       placeholder={props.elementConfig.placeholder}/>);
             break;
         case("textarea"):
             inputElement = (
-                <textarea></textarea>
+                <textarea className={classes.textArea}></textarea>
             );
             break;
         case("submit"):
             inputElement = (
-                <input type="submit" value={"Submit"}/>
-            )
+                <input className={classes.submit} type="submit" value={props.elementConfig.placeholder}/>
+            );
             break;
+        default:
+            inputElement = (
+                <input className={classes.input} type={"text"}
+                       placeholder={"write text"}/>);
     }
 
     return (
-        <div className={classes.Input}>
-            <label>{props.label}</label>
+        <div className={classes.InputWrapper}>
             {inputElement}
         </div>
     );
