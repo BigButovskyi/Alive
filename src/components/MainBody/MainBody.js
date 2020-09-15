@@ -10,31 +10,23 @@ import Aox from "../../hoc/Aox/Aox";
 
 class MainBody extends Component {
 
-    state = {
-        position: 1,
-        timeAnimation: 0,
-        transform: 0
-    }
 
-    scrollHandler = () => {
-        return;
-        let clientY = window.pageYOffset;
-        let elYC = clientY * 1;
-        this.setState({
-            transform: elYC
-        });
+    isInViewport = (element,coef = 0.75) => {
+        const top = element.getBoundingClientRect().top;
+        return top <= (coef * window.innerHeight);
     };
+
 
     render() {
         return (
-            <div onWheel={this.scrollHandler} style={{transform: "translateY(" + this.state.transform + "px)"}}>
+            <Aox>
                 <MountainsParallax/>
                 <BackpackPart/>
-                <MaterialsPart/>
+                <MaterialsPart isInViewport={(el) => this.isInViewport(el)}/>
                 <CarouselSection/>
                 <Location/>
                 <ContactFormSection/>
-            </div>
+            </Aox>
         );
     }
 }

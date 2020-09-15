@@ -3,30 +3,38 @@ import classes from "./MaterialsPart.css";
 
 class MaterialsPart extends Component {
 
+    state={
+        isVisible:false
+    }
+
     componentDidMount() {
-        document.addEventListener("scroll", this.isInViewport);
+        document.addEventListener("scroll", this.isInViewHandler);
     }
 
     componentWillUnmount() {
-        document.removeEventListener("scroll", this.isInViewport);
+        document.removeEventListener("scroll", this.isInViewHandler);
     }
 
-    isInViewport = () => {
-        const top = this.viewElement.getBoundingClientRect().top;
+    isInViewHandler = () => {
+        let isInView = this.props.isInViewport(this.viewElement);
+        this.setState({
+           isVisible:isInView
+        });
 
-        if(top <= 0){
-            console.log("Element is in view");
-        }else{
-            console.log("Element is outside view");
-        }
     };
 
+
     render() {
-        let setRef = (el) => {
+        const setRef = (el) => {
             this.viewElement = el;
         };
+
+        let materialStyle = {};
+        materialStyle.opacity = (this.state.isVisible)? "1":"0";
+        materialStyle.transform = "translateY(" + ((this.state.isVisible)? "0":"sd") + "px)";
+
         return (
-            <section className={classes.MaterialSection} ref={setRef}>
+            <section style={{opacity:(this.state.isVisible)?"1":"0"}} className={classes.MaterialSection} ref={setRef}>
                 <div className={classes.materialWrapper}>
                     <div className={classes.material + " " + classes.zipper}>
                         <h2><span className={classes.high_word}>High</span><span className={classes.quality_words}>quality materials</span>
