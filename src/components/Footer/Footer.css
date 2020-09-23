@@ -1,0 +1,16 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background: red;
+    box-sizing: border-box;
+    padding: 10px 5%;
+}
+
+.copyright{
+    display: inline-block;
+}
+
+.sign{
+    display: inline-block;
+    float:right;
+}
