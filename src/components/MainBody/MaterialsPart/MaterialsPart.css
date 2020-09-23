@@ -1,4 +1,5 @@
 .MaterialSection {
+    position: relative;
     width: 100%;
     height: auto;
     padding: 50px 0;
@@ -6,12 +7,23 @@
     transition: 1s ease-out;
 }
 
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    filter:blur(10px);
+    background-image: url("../../../assets/images/materialsSlide/city.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .materialWrapper {
     width: 90%;
     margin: 0 auto;
     padding: 20px 0;
-    background: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -21,17 +33,25 @@
     width: 45%;
     height: 600px;
     position: relative;
+    box-sizing: border-box;
+    border: 5px solid white;
+    transition: 0.5s ease-out;
+}
+
+.material:hover {
+    transform: scale(1.05);
 }
 
 .zipper {
     background-image: url("../../../assets/images/materialsSlide/zip.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    /*border-width: 0 5px 0 0;*/
 }
 
 .zipper h2 {
     position: absolute;
-    top: 70%;
+    top: 80%;
     width: 100%;
     font-size: 40px;
     text-transform: uppercase;
@@ -53,11 +73,12 @@
     background-image: url("../../../assets/images/materialsSlide/bpkr.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    /*border-width: 0 0 0 5px;*/
 }
 
 .bkp h2{
   position: absolute;
-  top: 10%;
+  top: 0%;
   width: 100%;
   font-size: 40px;
   text-transform: uppercase;

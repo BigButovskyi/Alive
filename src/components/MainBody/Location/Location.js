@@ -4,12 +4,15 @@ import ContactUs from "./ContactUs/ContactUs";
 
 const location = () => {
 
-    return(
+    return (
         <section className={classes.LocationSection}>
-            <h1 className={classes.locationHeader}>visit our store</h1>
-            <div className={classes.locationWrapper}>
-                <ContactUs/>
-                <div className={classes.map}></div>
+            <div className={classes.background}/>
+            <div className={classes.wrapper}>
+                <h1 className={classes.locationHeader}>visit our store</h1>
+                <div className={classes.locationWrapper}>
+                    <ContactUs/>
+                    <div className={classes.map}></div>
+                </div>
             </div>
         </section>
     );

@@ -65,9 +65,9 @@ class Carousel extends Component {
     render() {
         const translateX = this.state.translateX;
         const carouselBackpacks = [];
-        for (let i = 0; i < 10; i++) {
+        for (let i = 1; i <= 8; i++) {
             carouselBackpacks.push(
-                <CarouselItem  key={"carouselItem_" + i}/>
+                <CarouselItem imageNum={i}  key={"carouselItem_" + i} alt={"backpack_" + i}/>
             )
         }
         return (

@@ -33,11 +33,11 @@ const ContactUs = (props) => {
     });
 
     return (
-        <div className={classes.contactUsWrapper}>
-            <Aox style={{padding: "0 20%"}}>
+        <div className={classes.outWrapper}>
+            <div className={classes.innerWrapper}>
                 <h4 className={classes.contactUsTitle}>contact us</h4>
                 {contactDetails}
-            </Aox>
+            </div>
         </div>
     );
 };
