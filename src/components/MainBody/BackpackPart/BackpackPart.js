@@ -7,9 +7,9 @@ const backpackPart = (props) => {
 
     return (
         <section className={classes.BackpackPart}>
-            <div className={classes.clouds}>
-                <div className={classes.cloud1}/>
-            </div>
+            <div className={classes.oval}/>
+            <div className={classes.oval2}/>
+            <div className={classes.oval3}/>
             <Stuffs/>
         </section>
     );

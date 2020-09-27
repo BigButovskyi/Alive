@@ -96,7 +96,7 @@ class Stuffs extends Component {
     render() {
         let stuffs = this.state.items.map((item) => {
             return (
-                <Stuff rotate={item.rotate} translate={item.translate} name={item.name} image={item.image}/>
+                <Stuff key={item.name} rotate={item.rotate} translate={item.translate} name={item.name} image={item.image}/>
             );
         });
 

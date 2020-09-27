@@ -1,10 +1,9 @@
 import React, {useState} from "react";
 import classes from "./ContactUs.css"
-import Aox from "../../../../hoc/Aox/Aox";
 import Detail from "./Detail/Detail";
 
 const ContactUs = (props) => {
-    const [state, setState] = useState([
+    const [state] = useState([
         {
             className: "phone",
             title: "Tel",

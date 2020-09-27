@@ -49,12 +49,12 @@ class MountainsParallax extends Component {
     render() {
         return (
             <section className={c.MountainsSlide}>
-                <div style={{transform: this.state.movement.mountains.transform}} className={c.mountain}></div>
+                <div style={{transform: this.state.movement.mountains.transform}} className={c.mountain}/>
                 <div style={{transform: this.state.movement.alive.transform}} className={c.alive}>
                     <span className={c.al}>AL</span>
                     <span className={c.ve}>VE</span>
                 </div>
-                <div style={{transform: this.state.movement.man.transform}} className={c.man}></div>
+                <div style={{transform: this.state.movement.man.transform}} className={c.man}/>
                 <div className={c.cloudsParent}>
                     <img style={{transform: this.state.movement.clouds.transform}} src={clouds} className={c.clouds}
                          alt={"clouds"}/>
