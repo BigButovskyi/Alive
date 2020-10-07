@@ -2,8 +2,8 @@
     position: relative;
     width: 100%;
     height: auto;
-    padding: 50px 0;
-    background: lightcoral;
+    padding: 100px 0;
+    background: #211f1f;
     transition: 1s ease-out;
 }
 
@@ -38,15 +38,16 @@
     transition: 0.5s ease-out;
 }
 
-.material:hover {
-    transform: scale(1.05);
-}
+/*.material:hover {*/
+/*    transform: scale(1.05);*/
+/*}*/
 
 .zipper {
     background-image: url("../../../assets/images/materialsSlide/zip.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /*border-width: 0 5px 0 0;*/
+    filter:grayscale(70%);
 }
 
 .zipper h2 {
@@ -73,6 +74,7 @@
     background-image: url("../../../assets/images/materialsSlide/bpkr.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    filter:grayscale(50%);
     /*border-width: 0 0 0 5px;*/
 }
 

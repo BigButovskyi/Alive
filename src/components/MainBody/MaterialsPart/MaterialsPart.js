@@ -53,7 +53,7 @@ class MaterialsPart extends Component {
         return (
             <section style={{opacity: (this.state.isVisible) ? "1" : "0"}} className={classes.MaterialSection}
                      ref={setRef}>
-                <div className={classes.background}></div>
+                {/*<div className={classes.background}></div>*/}
                 <div className={classes.materialWrapper}>
                     <div className={classes.material + " " + classes.zipper}>
                         <h2 style={{transform:"translateY(" + this.state.transformA + "%)"}}>
