@@ -19,7 +19,6 @@ class App extends Component {
     render() {
         return (
             <div className={classes.App}>
-                <div className={classes.asd}/>
                 <Layout>
                     <PageContainer/>
                 </Layout>

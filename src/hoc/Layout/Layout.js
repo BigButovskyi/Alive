@@ -1,13 +1,13 @@
 import React from 'react';
 import Aox from "../Aox/Aox";
-import NavigationBar from "../../components/NavigationBar/NavigationBar";
+import Header from "../../components/NavigationBar/Header";
 import Footer from "../../components/Footer/Footer";
 
 const layout = (props) => {
 
     return (
         <Aox>
-            <NavigationBar/>
+            <Header/>
             {/*swipeDrawer*/}
             <main>
                 {props.children}
