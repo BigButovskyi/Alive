@@ -1,9 +1,11 @@
 .footer{
     width: 100%;
     height: auto;
-    background: red;
+    background: #211f1f;
+    color:white;
     box-sizing: border-box;
     padding: 10px 5%;
+    font-family: Ailerons;
 }
 
 .copyright{
