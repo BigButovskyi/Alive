@@ -11,10 +11,10 @@
 
 .header {
     text-align: center;
+    text-transform: uppercase;
     width: 100%;
-    font-family: 'Baloo Tammudu 2';
-    color:#cc6464;
-    text-shadow: 0px 10px 6px white;
+    color:#211f1f;
+    font-family: Ailerons;
     font-size: 25px;
     display: block;
 }

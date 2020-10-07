@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e20779dc-183a-4dfc-ac67-1a3599a4d7ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/BackpackPart/BackpackPart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/BackpackPart/BackpackPart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/BackpackPart/Clouds/Clouds.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/BackpackPart/Clouds/Clouds.js" beforeDir="false" />
+    <list default="true" id="e20779dc-183a-4dfc-ac67-1a3599a4d7ee" name="Default Changelist" comment="change after linear gradient color from">
       <change beforePath="$PROJECT_DIR$/src/components/MainBody/BackpackPart/Stuffs/Stuffs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/BackpackPart/Stuffs/Stuffs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainBody/BackpackPart/Stuffs/Stuffs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/BackpackPart/Stuffs/Stuffs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Location/Location.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Location/Location.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/MaterialsPart/MaterialsPart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/MaterialsPart/MaterialsPart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/MaterialsPart/MaterialsPart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/MaterialsPart/MaterialsPart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/MountainsParallax/MountainsParallax.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/MountainsParallax/MountainsParallax.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar/NavigationBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBar/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBar/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Input/Input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +139,7 @@
       <workItem from="1601201174732" duration="3336000" />
       <workItem from="1601213473451" duration="1762000" />
       <workItem from="1602080515987" duration="41000" />
-      <workItem from="1602080639672" duration="10053000" />
+      <workItem from="1602080639672" duration="10371000" />
     </task>
     <task id="LOCAL-00001" summary="alive parallax project">
       <created>1590273448157</created>
@@ -337,23 +323,83 @@
       <option name="project" value="LOCAL" />
       <updated>1601204398284</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update file name from manubar to navigation bar">
+      <created>1602101334853</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101334853</updated>
+    </task>
+    <task id="LOCAL-00028" summary="change footer font family">
+      <created>1602101370902</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101370902</updated>
+    </task>
+    <task id="LOCAL-00029" summary="upload nav bar">
+      <created>1602101397798</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101397798</updated>
+    </task>
+    <task id="LOCAL-00030" summary="rename hello its me to alive">
+      <created>1602101430121</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101430121</updated>
+    </task>
+    <task id="LOCAL-00031" summary="changed submit button css properties">
+      <created>1602101455543</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101455543</updated>
+    </task>
+    <task id="LOCAL-00032" summary="change after linear gradient color from">
+      <created>1602101505628</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101505628</updated>
+    </task>
+    <task id="LOCAL-00033" summary="remove background to clear black">
+      <created>1602101538677</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101538677</updated>
+    </task>
+    <task id="LOCAL-00034" summary="some updates better to upgrade">
+      <created>1602101564669</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101564669</updated>
+    </task>
+    <task id="LOCAL-00035" summary="nohting changed">
+      <created>1602101585693</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101585693</updated>
+    </task>
+    <task id="LOCAL-00036" summary="oval colors changed">
+      <created>1602101605444</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101605444</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some parallax adds" />
-    <MESSAGE value="lazy loading" />
-    <MESSAGE value="basic algorithm for slider animation is done" />
-    <MESSAGE value="slider on pc completely works" />
-    <MESSAGE value="added ocean slide without parallax effect" />
-    <MESSAGE value="mountain after effect disabled" />
-    <MESSAGE value="ocean parallax effect done" />
-    <MESSAGE value="added video as background to ocean slide" />
-    <MESSAGE value="update title and icon" />
-    <MESSAGE value="project update, new theme is backpacks" />
     <MESSAGE value="carousel triangle animation + sale" />
     <MESSAGE value="added location section" />
     <MESSAGE value="some carousel fixes" />
@@ -369,17 +415,27 @@
     <MESSAGE value="some updates v1.2" />
     <MESSAGE value="littlef updates" />
     <MESSAGE value="littlef updates 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="littlef updates 1" />
+    <MESSAGE value="update file name from manubar to navigation bar" />
+    <MESSAGE value="change footer font family" />
+    <MESSAGE value="upload nav bar" />
+    <MESSAGE value="rename hello its me to alive" />
+    <MESSAGE value="changed submit button css properties" />
+    <MESSAGE value="change after linear gradient color from" />
+    <MESSAGE value="remove background to clear black" />
+    <MESSAGE value="some updates better to upgrade" />
+    <MESSAGE value="nohting changed" />
+    <MESSAGE value="oval colors changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="oval colors changed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602080529452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602080529452" />
-    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2" timestamp="1601204491312">
+    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2" timestamp="1602101604829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1601204491312" />
+    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602101604829" />
     <state width="1899" height="273" key="GridCell.Tab.0.bottom" timestamp="1602080667438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

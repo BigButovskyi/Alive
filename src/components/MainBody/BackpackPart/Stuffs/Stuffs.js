@@ -102,7 +102,7 @@ class Stuffs extends Component {
 
         return (
             <div className={c.imagesWrapper}>
-                <h1 className={c.header}>Backpacks №1 in Ukraine</h1>
+                <h1 className={c.header}>Top 1 in Ukraine</h1>
                 <div className={c.backpackItemsWrapper}>
                     <div className={c.backpack}>
                         <img src={backpackImage} alt={"backpackImage"}/>
