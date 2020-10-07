@@ -1,0 +1,24 @@
+
+.Header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #211f1f;
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.helloText{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width:30%;
+    padding: 5px 0;
+    font-size: 30px;
+    font-family: Ailerons;
+    color: white;
+}
