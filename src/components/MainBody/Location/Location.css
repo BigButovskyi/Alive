@@ -12,11 +12,11 @@
     left:0;
 
     background-image: url("../../../assets/images/location/background.jpg");
+    filter:grayscale(100%) blur(4px);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    filter: blur(4px);
 }
 
 .wrapper{
