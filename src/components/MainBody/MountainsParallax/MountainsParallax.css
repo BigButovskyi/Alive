@@ -11,8 +11,8 @@
     bottom: 0;
     position: absolute;
     width: 100%;
-    height: 20%;
-    background: linear-gradient(to top, #b49696, transparent);
+    height: 3%;
+    background: linear-gradient(to top, #FFF6F8, transparent);
 }
 
 .mountain {
