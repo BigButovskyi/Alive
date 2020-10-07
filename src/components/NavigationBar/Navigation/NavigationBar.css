@@ -1,0 +1,8 @@
+.NavigationBar{
+    height: 100%;
+    width: auto;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 5px;
+    flex-direction: row;
+}
