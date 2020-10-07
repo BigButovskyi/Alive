@@ -18,9 +18,12 @@
 }
 
 .submit{
-    background: orange;
+    background: #211f1f;
     text-transform: uppercase;
     color: white;
     border: transparent;
     padding: 10px;
+    font-family: Ailerons;
+    font-size: 30px;
+    cursor: pointer;
 }
