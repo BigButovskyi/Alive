@@ -13,7 +13,7 @@
 
 .text{
     text-transform: uppercase;
-    font-family: Ailerons;
+    font-family: SecularOne;
     font-size: 25px;
     color: white;
 }
@@ -24,7 +24,7 @@
     left:0;
     width: 0%;
     height: 2px;
-    background: white;
+    background: #65fd9b;
     transition: 0.3s ease-out;
 }
 

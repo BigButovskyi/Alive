@@ -5,7 +5,7 @@ import MainBody from "../../components/MainBody/MainBody";
 const PageContainer = (props) => {
     return (
         <div className={classes.PageContainer}>
-                <MainBody/>
+                <MainBody addElement={props.addElement}/>
         </div>
     );
 }

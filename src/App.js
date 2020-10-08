@@ -13,14 +13,11 @@ class App extends Component {
         window.removeEventListener("load", this.loaded);
     }
 
-    loaded = () => {
-    };
-
     render() {
         return (
             <div className={classes.App}>
                 <Layout>
-                    <PageContainer/>
+                    <PageContainer addElement={(el) => this.addElement(el)}/>
                 </Layout>
             </div>
         );

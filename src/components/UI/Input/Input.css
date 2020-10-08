@@ -9,13 +9,46 @@
     height: 30px;
     padding: 5px;
     font-size: 15px;
+    font-family: SecularOne;
+    background: #211f1f;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s ease-out;
+}
+
+.input::placeholder{
+    color:white;
+    text-transform: uppercase;
+}
+
+.input:focus{
+    background: white;
+    color: #211f1f;
+    outline: none;
 }
 
 .textArea{
     height: 100px;
     padding: 5px;
     font-size: 15px;
+    font-family: SecularOne;
+    resize: none;
+    background: #211f1f;
+    color:#65fd9b;
+    border-radius: 5px;
 }
+
+.textArea::placeholder{
+    color:white;
+}
+
+
+.textArea:focus{
+    background: white;
+    color: #211f1f;
+    outline: none;
+}
+
 
 .submit{
     background: #211f1f;
@@ -23,7 +56,7 @@
     color: white;
     border: transparent;
     padding: 10px;
-    font-family: Ailerons;
-    font-size: 30px;
+    font-family: SecularOne;
+    font-size: 20px;
     cursor: pointer;
 }

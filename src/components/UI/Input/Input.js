@@ -13,7 +13,7 @@ const input = (props) => {
             break;
         case("textarea"):
             inputElement = (
-                <textarea className={classes.textArea}></textarea>
+                <textarea className={classes.textArea} placeholder={props.elementConfig.placeholder}/>
             );
             break;
         case("submit"):

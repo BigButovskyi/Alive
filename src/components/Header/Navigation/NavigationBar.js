@@ -5,7 +5,7 @@ import NavigationItem from "./NavigationItem/NavigationItem";
 class NavigationBar extends Component {
     state = {
         navigationItems: [
-            {name: "Main"},
+            {name: "HIGH quality"},
             {name: "Feature"},
             {name: "Advantage"},
             {name: "Types"},

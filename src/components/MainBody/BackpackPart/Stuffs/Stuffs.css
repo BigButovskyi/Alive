@@ -10,13 +10,20 @@
 }
 
 .header {
-    text-align: center;
+    text-align: right;
+    box-sizing: border-box;
     text-transform: uppercase;
-    width: 100%;
+    width: 60%;
     color:#211f1f;
-    font-family: Ailerons;
+    font-family: SecularOne;
     font-size: 25px;
     display: block;
+    background: #65fd9b;
+    margin:0;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    padding-right:5%;
+    transform: translateY(-30%);
 }
 
 .backpackItemsWrapper {
@@ -30,21 +37,26 @@
 
 .backpack {
     height: 80%;
-    width: 30%;
+    width: 35%;
+    border-radius: 0 20px 20px 0;
+
+    background-image: url("../../../../assets/images/secondSlide/backpcktest.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.backpack img {
-    display: block;
-    height: auto;
-    width: auto;
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    filter: drop-shadow(-5px -3px 8px black);
-}
+/*.backpack img {*/
+/*    display: block;*/
+/*    object-fit: cover;*/
+/*    width: 100%;*/
+/*    margin: auto;*/
+/*    filter: drop-shadow(-5px -3px 8px black);*/
+/*}*/
 
 .items {
     position: relative;
     width: 65%;
     height: 80%;
+    filter:grayscale(1);
 }

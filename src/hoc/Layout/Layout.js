@@ -1,9 +1,9 @@
 import React from 'react';
 import Aox from "../Aox/Aox";
-import Header from "../../components/NavigationBar/Header";
+import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
-const layout = (props) => {
+const Layout = (props) => {
 
     return (
         <Aox>
@@ -18,4 +18,4 @@ const layout = (props) => {
 
 }
 
-export default layout;
+export default Layout;

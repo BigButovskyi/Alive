@@ -26,3 +26,7 @@ code {
   font-family: "Ailerons";
   src: url("assets/fonts/ailerons.otf");
 }
+@font-face {
+  font-family: "SecularOne";
+  src: url("assets/fonts/SecularOne.ttf");
+}

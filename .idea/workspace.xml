@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e20779dc-183a-4dfc-ac67-1a3599a4d7ee" name="Default Changelist" comment="change after linear gradient color from">
+    <list default="true" id="e20779dc-183a-4dfc-ac67-1a3599a4d7ee" name="Default Changelist" comment="some updates better to uprove">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainBody/BackpackPart/Stuffs/Stuffs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/BackpackPart/Stuffs/Stuffs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainBody/BackpackPart/Stuffs/Stuffs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/BackpackPart/Stuffs/Stuffs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Carousel/CarouselSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Carousel/CarouselSection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Carousel/CarouselSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Carousel/CarouselSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactForm/ContactForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactForm/ContactForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactForm/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactForm/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactFormSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactFormSection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactFormSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/ContactForm/ContactFormSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Location/ContactUs/ContactUs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Location/ContactUs/ContactUs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Location/ContactUs/Detail/Detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Location/ContactUs/Detail/Detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Location/Location.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Location/Location.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Location/Location.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Location/Location.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/MainBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/MainBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/MaterialsPart/MaterialsPart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/MaterialsPart/MaterialsPart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/MaterialsPart/MaterialsPart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/MaterialsPart/MaterialsPart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar/Navigation/NavigationBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navigation/NavigationBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar/Navigation/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navigation/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar/Navigation/NavigationItem/NavigationItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navigation/NavigationItem/NavigationItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar/Navigation/NavigationItem/NavigationItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navigation/NavigationItem/NavigationItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Input/Input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/PageContainer/PageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PageContainer/PageContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images/parallaxSlides" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images/secondSlide" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,18 +79,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEs\React\alive\src\assets\images\parallaxSlides" />
       <recent name="D:\IDEs\React\alive\src\assets\images\secondSlide" />
+      <recent name="D:\IDEs\React\alive\src\assets\fonts" />
+      <recent name="D:\IDEs\React\alive\src\assets\images\parallaxSlides" />
       <recent name="D:\IDEs\React\alive\src\components\MainBody\BackpackPart\Stuffs\Stuff" />
       <recent name="D:\IDEs\React\alive\src\assets\images\location" />
-      <recent name="D:\IDEs\React\alive\src\assets\images\slider" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEs\React\alive\src\components\Header" />
       <recent name="D:\IDEs\React\alive\src\assets\images\parallaxSlides" />
       <recent name="D:\IDEs\React\alive\src\components" />
       <recent name="D:\IDEs\React\alive\src\components\MainBody\Carousel\Carousel" />
       <recent name="D:\IDEs\React\alive\src\assets\images\secondSlide" />
-      <recent name="D:\IDEs\React\alive\src\components\MainBody\BackpackPart" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -139,7 +168,10 @@
       <workItem from="1601201174732" duration="3336000" />
       <workItem from="1601213473451" duration="1762000" />
       <workItem from="1602080515987" duration="41000" />
-      <workItem from="1602080639672" duration="10371000" />
+      <workItem from="1602080639672" duration="10476000" />
+      <workItem from="1602102473114" duration="7115000" />
+      <workItem from="1602134342044" duration="5860000" />
+      <workItem from="1602140998752" duration="6268000" />
     </task>
     <task id="LOCAL-00001" summary="alive parallax project">
       <created>1590273448157</created>
@@ -393,14 +425,20 @@
       <option name="project" value="LOCAL" />
       <updated>1602101605444</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="some updates better to uprove">
+      <created>1602101628223</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101628223</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="carousel triangle animation + sale" />
     <MESSAGE value="added location section" />
     <MESSAGE value="some carousel fixes" />
     <MESSAGE value="update components, add contact us with paragraphs" />
@@ -425,52 +463,53 @@
     <MESSAGE value="some updates better to upgrade" />
     <MESSAGE value="nohting changed" />
     <MESSAGE value="oval colors changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="oval colors changed" />
+    <MESSAGE value="some updates better to uprove" />
+    <option name="LAST_COMMIT_MESSAGE" value="some updates better to uprove" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602080529452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602080529452" />
-    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2" timestamp="1602101604829">
+    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2" timestamp="1602136281447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602101604829" />
-    <state width="1899" height="273" key="GridCell.Tab.0.bottom" timestamp="1602080667438">
+    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602136281447" />
+    <state width="1899" height="273" key="GridCell.Tab.0.bottom" timestamp="1602147076056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602080667438" />
-    <state width="1899" height="273" key="GridCell.Tab.0.center" timestamp="1602080667438">
+    <state width="1899" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602147076056" />
+    <state width="1899" height="273" key="GridCell.Tab.0.center" timestamp="1602147076055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602080667438" />
-    <state width="1899" height="273" key="GridCell.Tab.0.left" timestamp="1602080667438">
+    <state width="1899" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602147076055" />
+    <state width="1899" height="273" key="GridCell.Tab.0.left" timestamp="1602147076055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602080667438" />
-    <state width="1899" height="273" key="GridCell.Tab.0.right" timestamp="1602080667438">
+    <state width="1899" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602147076055" />
+    <state width="1899" height="273" key="GridCell.Tab.0.right" timestamp="1602147076056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602080667438" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1602101003492">
+    <state width="1899" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602147076056" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1602146735441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602101003492" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1601204499713">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602146735441" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602101636327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1601204499713" />
-    <state x="646" y="236" width="627" height="568" key="find.popup" timestamp="1602100974804">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602101636327" />
+    <state x="646" y="236" width="627" height="568" key="find.popup" timestamp="1602144943099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="646" y="236" width="627" height="568" key="find.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602100974804" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1601201432204">
+    <state x="646" y="236" width="627" height="568" key="find.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602144943099" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1602138907031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1601201432204" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1599660258625">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602138907031" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1602136479570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1599660258625" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602136479570" />
   </component>
 </project>

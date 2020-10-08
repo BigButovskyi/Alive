@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import c from "./Stuffs.css";
-import backpackImage from "../../../../assets/images/secondSlide/backpack.png";
 import lantern from "../../../../assets/images/secondSlide/lantern.png";
 import compass from "../../../../assets/images/secondSlide/compas.png";
 import medicine from "../../../../assets/images/secondSlide/medicine.png";
@@ -104,9 +103,7 @@ class Stuffs extends Component {
             <div className={c.imagesWrapper}>
                 <h1 className={c.header}>Top 1 in Ukraine</h1>
                 <div className={c.backpackItemsWrapper}>
-                    <div className={c.backpack}>
-                        <img src={backpackImage} alt={"backpackImage"}/>
-                    </div>
+                    <div className={c.backpack}/>
                     <div className={c.items}>
                         {stuffs}
                     </div>

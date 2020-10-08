@@ -2,12 +2,10 @@ import React from "react";
 import classes from "./ContactFormSection.css";
 import ContactForm from "./ContactForm/ContactForm";
 
-const contactFormSection = () => {
-
+const contactFormSection = (props) => {
     return (
         <section className={classes.ContactFormSection}>
-            <h2 className={classes.header}>have a question? write us!</h2>
-            <ContactForm/>
+            <ContactForm isInViewport={(el) => props.isInViewport(el)}/>
         </section>
     );
 };

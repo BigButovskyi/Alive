@@ -4,7 +4,7 @@ import classes from "./MaterialsPart.css";
 class MaterialsPart extends Component {
 
     state = {
-        isVisible: false,
+        isVisible:false,
         textFields: [
             {
 
@@ -20,14 +20,14 @@ class MaterialsPart extends Component {
     }
 
     componentDidMount() {
-        document.addEventListener("scroll", this.isInViewHandler);
+        document.addEventListener("scroll", this.scrollHandler);
     }
 
     componentWillUnmount() {
-        document.removeEventListener("scroll", this.isInViewHandler);
+        document.removeEventListener("scroll", this.scrollHandler);
     }
 
-    isInViewHandler = () => {
+    scrollHandler = () => {
         let isInView = this.props.isInViewport(this.viewElement);
         this.setState({
             isVisible: isInView
@@ -46,15 +46,18 @@ class MaterialsPart extends Component {
 
 
     render() {
-        const setRef = (el) => {
+        let setRef = (el) => {
             this.viewElement = el;
         };
 
+        let cardsStyle = {
+            opacity:(this.state.isVisible)?"1":"0",
+            transform:(this.state.isVisible)? "translateY(0)":"translateY(100px)"
+        };
         return (
-            <section style={{opacity: (this.state.isVisible) ? "1" : "0"}} className={classes.MaterialSection}
-                     ref={setRef}>
-                {/*<div className={classes.background}></div>*/}
-                <div className={classes.materialWrapper}>
+            <section ref={setRef} className={classes.MaterialSection}>
+                <h1 className={classes.header}><div className={classes.headerLabel}>advantages</div></h1>
+                <div style={cardsStyle} className={classes.materialWrapper}>
                     <div className={classes.material + " " + classes.zipper}>
                         <h2 style={{transform:"translateY(" + this.state.transformA + "%)"}}>
                             <span className={classes.high_word}>High</span>

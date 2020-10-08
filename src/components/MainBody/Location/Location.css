@@ -1,51 +1,57 @@
-.LocationSection{
+.LocationSection {
     width: 100%;
-    height: 600px;
+    height: 700px;
     position: relative;
 }
 
-.background{
+.background {
     position: absolute;
     width: 100%;
     height: 100%;
-    top:0;
-    left:0;
-
-    background-image: url("../../../assets/images/location/background.jpg");
-    filter:grayscale(100%) blur(4px);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    background: #211f1f;
 }
 
-.wrapper{
+.wrapper {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.locationHeader{
+.locationHeader {
     width: 100%;
-    text-align: center;
+    font-family: SecularOne;
+    font-size: 25px;
+    color: black;
     height: auto;
     text-transform: uppercase;
-    background: transparent;
 }
 
-.locationWrapper{
-    width: 90%;
-    height: 80%;
+.locationHeaderLabel {
+    width: 40%;
+    background: white;
+    text-align: center;
     margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transform: translateY(-30px);
+    box-shadow: 0 0 10px #211f1f;
+}
+
+.locationWrapper {
+    width: 100%;
+    height: 60%;
+    margin: 50px auto;
     display: flex;
     flex-direction: row;
 }
 
-.map{
+.map {
     user-select: none;
     width: 60%;
     height: 100%;
@@ -53,4 +59,5 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 50px 0 0 50px;
 }

@@ -22,8 +22,8 @@ const NavigationItem = (props) => {
 
     return(
         <div onClick={lineHandler} className={classes.NavigationItem}>
-            <span className={classes.text}>{props.label}</span>
             <div style={lineStyle} className={classes.line}></div>
+            <span className={classes.text}>{props.label}</span>
         </div>
     );
 };

@@ -20,7 +20,7 @@ const MainBody = (props) => {
                 <MaterialsPart isInViewport={(el) => isInViewport(el)}/>
                 <CarouselSection/>
                 <Location/>
-                <ContactFormSection/>
+                <ContactFormSection isInViewport={isInViewport}/>
             </Aox>
         );
 

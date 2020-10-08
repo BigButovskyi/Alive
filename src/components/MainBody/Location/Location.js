@@ -8,7 +8,7 @@ const location = () => {
         <section className={classes.LocationSection}>
             <div className={classes.background}/>
             <div className={classes.wrapper}>
-                <h1 className={classes.locationHeader}>visit our store</h1>
+                <h1 className={classes.locationHeader}><div className={classes.locationHeaderLabel}>visit our store</div></h1>
                 <div className={classes.locationWrapper}>
                     <ContactUs/>
                     <div className={classes.map}></div>
