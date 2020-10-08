@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51418060208cd260e9ff9e1e31cb5b43",
+    "revision": "d67738913e237a748963a784f0b90683",
     "url": "/Alive/index.html"
   },
   {
-    "revision": "830dce036665858fc997",
-    "url": "/Alive/static/css/main.f0a862ce.chunk.css"
+    "revision": "839e612f1d8f9caf3828",
+    "url": "/Alive/static/css/main.9a88390b.chunk.css"
   },
   {
-    "revision": "6ef4d077fb27732375a9",
-    "url": "/Alive/static/js/2.a1f7400e.chunk.js"
+    "revision": "58b8be30427752a698bd",
+    "url": "/Alive/static/js/2.37558673.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Alive/static/js/2.a1f7400e.chunk.js.LICENSE.txt"
+    "url": "/Alive/static/js/2.37558673.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "830dce036665858fc997",
-    "url": "/Alive/static/js/main.265f7d2b.chunk.js"
+    "revision": "839e612f1d8f9caf3828",
+    "url": "/Alive/static/js/main.bcbebb32.chunk.js"
   },
   {
     "revision": "a23bb1beff35ec54b6c7",
@@ -68,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Alive/static/media/9.8f0fe273.jpg"
   },
   {
+    "revision": "be1378e67f651504d3552ce42a65f0b6",
+    "url": "/Alive/static/media/SecularOne.be1378e6.ttf"
+  },
+  {
     "revision": "c7d5266a69b150320a6c545a3b8360d8",
     "url": "/Alive/static/media/ailerons.c7d5266a.otf"
   },
@@ -80,20 +84,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Alive/static/media/anurati.ca8632f4.otf"
   },
   {
-    "revision": "cd964a01a554efeb5b332e1fdc58b5ab",
-    "url": "/Alive/static/media/background.cd964a01.jpg"
-  },
-  {
-    "revision": "3cdb599af8cb22d1e6c01f563857d364",
-    "url": "/Alive/static/media/backpack.3cdb599a.png"
+    "revision": "a01331ab3092175a49b1a4563c297fbe",
+    "url": "/Alive/static/media/backpcktest.a01331ab.jpg"
   },
   {
     "revision": "7a328c9162f0397caf3ae3cc26538e84",
     "url": "/Alive/static/media/bpkr.7a328c91.jpg"
-  },
-  {
-    "revision": "35cc79f95b0d858f5a28746f41d056ad",
-    "url": "/Alive/static/media/city.35cc79f9.jpg"
   },
   {
     "revision": "308ee0f6ee0c7e4d29bfb8993dbdcf9a",
