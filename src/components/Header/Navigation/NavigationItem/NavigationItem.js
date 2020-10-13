@@ -1,28 +1,15 @@
-import React, {useState} from "react";
+import React from "react";
 import classes from "./NavigationItem.css";
 
 const NavigationItem = (props) => {
 
-    const [state, setState] = useState({
-        active:false
-    });
-
-
-    const lineHandler = () => {
-        setState(() => {
-            return{
-                active: !state.active
-            }
-        });
-    };
-
     let lineStyle = {
-        width: (state.active)? "100%":"0%"
+        width:(props.active)?"100%":"0"
     }
 
-    return(
-        <div onClick={lineHandler} className={classes.NavigationItem}>
-            <div style={lineStyle} className={classes.line}></div>
+    return (
+        <div onClick={() => props.click(props.position)} className={classes.NavigationItem}>
+            <div style={lineStyle} className={classes.line}/>
             <span className={classes.text}>{props.label}</span>
         </div>
     );
