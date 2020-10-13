@@ -7,59 +7,67 @@ class Carousel extends Component {
     state = {
         isDown: false,
         startX: 0,
-        translateX: 0
+        translateX: 0,
+        cursor:"grab"
+    }
+
+    componentDidMount() {
+        window.addEventListener('mouseup',this.mouseUpHandler);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('mouseup',this.mouseUpHandler);
     }
 
     mouseDownHandler = (e) => {
         let isDown = true;
+        let startX = e.pageX - this.state.translateX;
         // let startX = e.pageX - this.state.scrollLeft;
         // let scrollLeft = slider.scrollLeft;
         //
         this.setState({
-            isDown: isDown
-            // startX: startX,
+            isDown: isDown,
+            startX: startX,
+            cursor:"grabbing"
             // scrollLeft: scrollLeft
         });
     };
 
     mouseLeaveHandler = () => {
         this.setState({
-            isDown: false
+            isDown: false,
+            cursor:"grab"
         })
     };
 
     mouseUpHandler = () => {
         this.setState({
-            isDown: false
+            isDown: false,
+            cursor:"grab"
         })
     };
 
     mouseMoveHandler = (e) => {
         if (!this.state.isDown)
             return;
-        let startX = this.state.startX;
-        // let scrollLeft = this.state.scrollLeft;
-        //
-        // const x = e.pageX - slider.offsetLeft;
-        // const walk = (x - startX) * 3;
-        // slider.scrollLeft = scrollLeft - walk;
 
+        let translateX = -(this.state.startX - e.pageX);
+        this.setState({
+            translateX:translateX
+        });
+
+    };
+    sliderEdgesHandler = () => {
         let translateX = this.state.translateX;
-
-        const speed = 15;
-
-        if (e.pageX > startX) {
-            if (translateX !== 0)
-                translateX = translateX + speed;
-        } else {
-            translateX = translateX - speed;
+        if(this.slider.getBoundingClientRect().left > 0){
+            translateX = 0;
+        }else if(this.slider.getBoundingClientRect().right < window.innerWidth){
+            translateX = -(this.slider.getBoundingClientRect().width - window.innerWidth - 100);
         }
 
-
         this.setState({
-            translateX: translateX,
-            startX: e.pageX
-        });
+            translateX:translateX
+        })
     };
 
     render() {
@@ -70,13 +78,18 @@ class Carousel extends Component {
                 <CarouselItem imageNum={i}  key={"carouselItem_" + i} alt={"backpack_" + i}/>
             )
         }
+
+        let setRef = (el) => {
+            this.slider = el;
+        };
         return (
-                <div onMouseMove={(e) => this.mouseMoveHandler(e)}
+                <div ref={setRef} onMouseMove={(e) => this.mouseMoveHandler(e)}
                      onMouseUp={this.mouseUpHandler}
                      onMouseLeave={this.mouseLeaveHandler}
                      onMouseDown={(e) => this.mouseDownHandler(e)}
+                     onTransitionEnd={this.sliderEdgesHandler}
                      className={classes.Carousel}
-                     style={{transform: "translateX(" + translateX + "px)"}}
+                     style={{transform: "translateX(" + translateX + "px)",cursor:this.state.cursor}}
                 >
                     {carouselBackpacks}
                 </div>

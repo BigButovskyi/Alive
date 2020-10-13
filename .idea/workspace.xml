@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e20779dc-183a-4dfc-ac67-1a3599a4d7ee" name="Default Changelist" comment="">
+    <list default="true" id="e20779dc-183a-4dfc-ac67-1a3599a4d7ee" name="Default Changelist" comment="menu click animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Navigation/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navigation/NavigationBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Navigation/NavigationItem/NavigationItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navigation/NavigationItem/NavigationItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Navigation/NavigationItem/NavigationItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navigation/NavigationItem/NavigationItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Carousel/Carousel/Carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Carousel/Carousel/Carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Carousel/Carousel/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Carousel/Carousel/Carousel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainBody/Carousel/Carousel/CarouselItem/CarouselItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Carousel/Carousel/CarouselItem/CarouselItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Carousel/Carousel/CarouselItem/CarouselItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Carousel/Carousel/CarouselItem/CarouselItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Location/ContactUs/ContactUs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Location/ContactUs/ContactUs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Location/ContactUs/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Location/ContactUs/ContactUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Location/Location.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Location/Location.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Location/Location.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Location/Location.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody/MainBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/MainBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBody/Carousel/CarouselSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody/Carousel/CarouselSection.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +152,7 @@
       <workItem from="1602161153564" duration="1528000" />
       <workItem from="1602498897721" duration="8148000" />
       <workItem from="1602520838660" duration="1217000" />
+      <workItem from="1602579635741" duration="18535000" />
     </task>
     <task id="LOCAL-00001" summary="alive parallax project">
       <created>1590273448157</created>
@@ -425,16 +420,34 @@
       <option name="project" value="LOCAL" />
       <updated>1602147439775</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="location appear animation">
+      <created>1602579777455</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1602579777455</updated>
+    </task>
+    <task id="LOCAL-00040" summary="animation update">
+      <created>1602579848842</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1602579848842</updated>
+    </task>
+    <task id="LOCAL-00041" summary="menu click animation">
+      <created>1602579880440</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1602579880440</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some carousel fixes" />
-    <MESSAGE value="update components, add contact us with paragraphs" />
-    <MESSAGE value="HOC aox added" />
     <MESSAGE value="change parent div to Aox" />
     <MESSAGE value="little fix" />
     <MESSAGE value="added contact form section" />
@@ -457,52 +470,55 @@
     <MESSAGE value="oval colors changed" />
     <MESSAGE value="some updates better to uprove" />
     <MESSAGE value="08.10.20 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="08.10.20 update" />
+    <MESSAGE value="location appear animation" />
+    <MESSAGE value="animation update" />
+    <MESSAGE value="menu click animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu click animation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602080529452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602080529452" />
-    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2" timestamp="1602147438472">
+    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2" timestamp="1602580015637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602147438472" />
-    <state width="1899" height="273" key="GridCell.Tab.0.bottom" timestamp="1602540120913">
+    <state x="255" y="23" width="1387" height="945" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602580015637" />
+    <state width="1899" height="273" key="GridCell.Tab.0.bottom" timestamp="1602579660666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602540120913" />
-    <state width="1899" height="273" key="GridCell.Tab.0.center" timestamp="1602540120913">
+    <state width="1899" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602579660666" />
+    <state width="1899" height="273" key="GridCell.Tab.0.center" timestamp="1602579660666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602540120913" />
-    <state width="1899" height="273" key="GridCell.Tab.0.left" timestamp="1602540120913">
+    <state width="1899" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602579660666" />
+    <state width="1899" height="273" key="GridCell.Tab.0.left" timestamp="1602579660666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602540120913" />
-    <state width="1899" height="273" key="GridCell.Tab.0.right" timestamp="1602540120913">
+    <state width="1899" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602579660666" />
+    <state width="1899" height="273" key="GridCell.Tab.0.right" timestamp="1602579660666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602540120913" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1602509089343">
+    <state width="1899" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602579660666" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1602596344480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602509089343" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602147445050">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602596344480" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602580018513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602147445050" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602580018513" />
     <state x="646" y="236" width="627" height="568" key="find.popup" timestamp="1602144943099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="236" width="627" height="568" key="find.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602144943099" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1602502680649">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1602593330806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602502680649" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1602509147263">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602593330806" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1602580695886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602509147263" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1602580695886" />
   </component>
 </project>
