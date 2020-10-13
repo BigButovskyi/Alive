@@ -1,21 +1,54 @@
-import React from "react";
+import React, {Component} from "react";
 import classes from "./Location.css";
 import ContactUs from "./ContactUs/ContactUs";
 
-const location = () => {
+class Location extends Component {
 
-    return (
-        <section className={classes.LocationSection}>
-            <div className={classes.background}/>
-            <div className={classes.wrapper}>
-                <h1 className={classes.locationHeader}><div className={classes.locationHeaderLabel}>visit our store</div></h1>
-                <div className={classes.locationWrapper}>
-                    <ContactUs/>
-                    <div className={classes.map}></div>
+    state = {
+        isVisible: false
+    }
+
+    componentDidMount() {
+        document.addEventListener("scroll", this.scrollHandler);
+    }
+
+    componentWillUnmount() {
+        document.removeEventListener("scroll", this.scrollHandler);
+    }
+
+    scrollHandler = () => {
+        const isVisible = this.props.isInViewport(this.viewElement);
+        this.setState(
+            {
+                isVisible: isVisible
+            });
+    };
+
+
+    render() {
+        const setRef = (el) => {
+            this.viewElement = el;
+        };
+
+        const mapStyle = {transform:(this.state.isVisible)?"":"translateX(100%)"},
+            contactUsStyle = {transform:(this.state.isVisible)?"":"translateX(-100%)"};
+
+        return (
+            <section ref={setRef} className={classes.LocationSection}>
+                <div className={classes.background}/>
+                <div className={classes.wrapper}>
+                    <h1 className={classes.locationHeader}>
+                        <div className={classes.locationHeaderLabel}>visit our store</div>
+                    </h1>
+                    <div className={classes.locationWrapper}>
+                        <ContactUs style={contactUsStyle}/>
+                        <div style={mapStyle} className={classes.map}/>
+                    </div>
                 </div>
-            </div>
-        </section>
-    );
-};
+            </section>
+        )
+    }
 
-export default location;
+}
+
+export default Location;
