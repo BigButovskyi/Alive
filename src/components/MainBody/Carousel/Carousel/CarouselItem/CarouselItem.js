@@ -35,7 +35,6 @@ const CarouselItem = (props) => {
     let bottomRightTriangleStyle = {transform: "translate3d(-" + state.triangleTranslate3d + "%," + state.triangleTranslate3d + "%,0)"};
     let saleStyle = {transform: "translateY(" + state.saleTranslateY + "%)"};
 
-
     return (
         <div onMouseOver={hoverHandler} onMouseLeave={leaveHandler} className={classes.CarouselElement}>
             <img src={require('../../../../../assets/images/slider/' + props.imageNum + '.jpg')} className={classes.background} alt={props.alt}/>

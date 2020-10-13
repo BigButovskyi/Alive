@@ -26,6 +26,7 @@
     top:0;
     left:0;
     object-fit: cover;
+    transition: var(--animationDuration) ease-out;
 }
 
 .saleHeader{
@@ -42,7 +43,6 @@
     text-transform: uppercase;
     text-align: center;
     font-size: 50px;
-    text-shadow: 0 0 10px lightblue;
 }
 
 .hover_div{
@@ -58,9 +58,8 @@
     height: 0;
     border-style: solid;
     border-width: 30vw 30vw 0 0;
-    border-color: #011d09 transparent transparent transparent;
+    border-color: #34dc6f4f transparent transparent transparent;
     transition: var(--animationDuration) ease-out;
-    mix-blend-mode: difference;
 }
 
 .bottom_right_triangle{

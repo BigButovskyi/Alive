@@ -8,22 +8,23 @@ import ContactFormSection from "./ContactForm/ContactFormSection";
 import Aox from "../../hoc/Aox/Aox";
 
 const MainBody = (props) => {
-        const isInViewport = (element, coef = 0.8) => {
-            const top = element.getBoundingClientRect().top;
-            return top <= (coef * window.innerHeight);
-        };
 
-        return (
-            <Aox>
-                <MountainsParallax/>
-                <BackpackPart/>
-                <MaterialsPart isInViewport={(el) => isInViewport(el)}/>
-                <CarouselSection/>
-                <Location/>
-                <ContactFormSection isInViewport={isInViewport}/>
-            </Aox>
-        );
+    const isInViewport = (element, coef = 0.8) => {
+        const top = element.getBoundingClientRect().top;
+        return top <= (coef * window.innerHeight);
+    };
 
-    }
+    return (
+        <Aox>
+            <MountainsParallax/>
+            <BackpackPart/>
+            <MaterialsPart isInViewport={(el) => isInViewport(el)}/>
+            <CarouselSection/>
+            <Location isInViewport={(el) => isInViewport(el)}/>
+            <ContactFormSection isInViewport={isInViewport}/>
+        </Aox>
+    );
+
+}
 
 export default MainBody;
