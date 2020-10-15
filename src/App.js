@@ -3,6 +3,8 @@ import classes from './App.css';
 import Layout from "./hoc/Layout/Layout";
 import PageContainer from "./containers/PageContainer/PageContainer";
 
+let COMPONENTS = [];
+
 class App extends Component {
 
     componentDidMount() {
@@ -13,11 +15,23 @@ class App extends Component {
         window.removeEventListener("load", this.loaded);
     }
 
+    isInViewport = (element, coef = 0.8) => {
+        const top = element.getBoundingClientRect().top;
+        return top <= (coef * window.innerHeight);
+    };
+
+    setChildRef = (el) => {
+        COMPONENTS.push(el);
+    };
+
     render() {
         return (
             <div className={classes.App}>
-                <Layout>
-                    <PageContainer addElement={(el) => this.addElement(el)}/>
+                <Layout isInViewport={this.isInViewport} components={COMPONENTS} advantages={this.advantages}>
+                    <PageContainer
+                        isInViewport={this.isInViewport}
+                        setChildRef={this.setChildRef}
+                        addElement={(el) => this.addElement(el)}/>
                 </Layout>
             </div>
         );

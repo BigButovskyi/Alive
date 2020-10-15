@@ -7,7 +7,7 @@ const Layout = (props) => {
 
     return (
         <Aox>
-            <Header/>
+            <Header isInViewport={props.isInViewport} components={props.components}/>
             {/*swipeDrawer*/}
             <main>
                 {props.children}

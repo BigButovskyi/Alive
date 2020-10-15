@@ -21,6 +21,7 @@ class MaterialsPart extends Component {
 
     componentDidMount() {
         document.addEventListener("scroll", this.scrollHandler);
+        this.props.setChildRef(this.viewElement)
     }
 
     componentWillUnmount() {

@@ -1,13 +1,22 @@
-import React from "react";
+import React, {Component} from "react";
 import classes from "./ContactFormSection.css";
 import ContactForm from "./ContactForm/ContactForm";
 
-const contactFormSection = (props) => {
-    return (
-        <section className={classes.ContactFormSection}>
-            <ContactForm isInViewport={(el) => props.isInViewport(el)}/>
-        </section>
-    );
-};
+class contactFormSection extends Component {
+    componentDidMount() {
+        this.props.setChildRef(this.viewElement);
+    }
+
+    render() {
+        let setRef = (el) => {
+            this.viewElement = el;
+        };
+        return (
+            <section ref={setRef} className={classes.ContactFormSection}>
+                <ContactForm isInViewport={(el) => this.props.isInViewport(el)}/>
+            </section>
+        );
+    }
+}
 
 export default contactFormSection;

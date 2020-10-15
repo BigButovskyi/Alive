@@ -5,7 +5,7 @@ import MainBody from "../../components/MainBody/MainBody";
 const PageContainer = (props) => {
     return (
         <div className={classes.PageContainer}>
-                <MainBody addElement={props.addElement}/>
+                <MainBody isInViewport={props.isInViewport} setChildRef={props.setChildRef} addElement={props.addElement}/>
         </div>
     );
 }

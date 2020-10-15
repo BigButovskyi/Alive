@@ -9,19 +9,14 @@ import Aox from "../../hoc/Aox/Aox";
 
 const MainBody = (props) => {
 
-    const isInViewport = (element, coef = 0.8) => {
-        const top = element.getBoundingClientRect().top;
-        return top <= (coef * window.innerHeight);
-    };
-
     return (
         <Aox>
-            <MountainsParallax/>
-            <BackpackPart/>
-            <MaterialsPart isInViewport={(el) => isInViewport(el)}/>
-            <CarouselSection/>
-            <Location isInViewport={(el) => isInViewport(el)}/>
-            <ContactFormSection isInViewport={isInViewport}/>
+            <MountainsParallax setChildRef={(el) => props.setChildRef(el)}/>
+            <BackpackPart setChildRef={(el) => props.setChildRef(el)}/>
+            <MaterialsPart setChildRef={(el) => props.setChildRef(el)} isInViewport={(el) => props.isInViewport(el)}/>
+            <CarouselSection setChildRef={(el) => props.setChildRef(el)}/>
+            <Location setChildRef={(el) => props.setChildRef(el)} isInViewport={(el) => props.isInViewport(el)}/>
+            <ContactFormSection setChildRef={(el) => props.setChildRef(el)} isInViewport={props.isInViewport}/>
         </Aox>
     );
 

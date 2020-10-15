@@ -26,6 +26,7 @@ class MountainsParallax extends Component {
 
     componentDidMount() {
         document.addEventListener("scroll", this.scrollHandler);
+        this.props.setChildRef(this.viewElement);
     }
 
     componentWillUnmount() {
@@ -47,8 +48,11 @@ class MountainsParallax extends Component {
     };
 
     render() {
+    let setRef = (el) => {
+        this.viewElement = el;
+    };
         return (
-            <section className={c.MountainsSlide}>
+            <section ref={setRef} className={c.MountainsSlide}>
                 <div style={{transform: this.state.movement.mountains.transform}} className={c.mountain}/>
                 <div style={{transform: this.state.movement.alive.transform}} className={c.alive}>
                     <span className={c.al}>AL</span>
