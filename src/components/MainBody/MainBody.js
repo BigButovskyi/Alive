@@ -14,7 +14,7 @@ const MainBody = (props) => {
             <MountainsParallax setChildRef={(el) => props.setChildRef(el)}/>
             <BackpackPart setChildRef={(el) => props.setChildRef(el)}/>
             <MaterialsPart setChildRef={(el) => props.setChildRef(el)} isInViewport={(el) => props.isInViewport(el)}/>
-            <CarouselSection setChildRef={(el) => props.setChildRef(el)}/>
+            <CarouselSection isInViewport={(el) => props.isInViewport(el)} setChildRef={(el) => props.setChildRef(el)}/>
             <Location setChildRef={(el) => props.setChildRef(el)} isInViewport={(el) => props.isInViewport(el)}/>
             <ContactFormSection setChildRef={(el) => props.setChildRef(el)} isInViewport={props.isInViewport}/>
         </Aox>

@@ -21,9 +21,10 @@
     background: #65fd9b;
 }
 
-.wrapper {
+.carouselWrapper {
     position: absolute;
     top: 10%;
-    width: 100%;
-    overflow-x: scroll;
+    height: auto;
+    width:auto;
+    transition: 1s ease-out;
 }
