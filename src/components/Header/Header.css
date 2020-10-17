@@ -1,4 +1,3 @@
-
 .Header {
     width: 100%;
     height: auto;
@@ -13,12 +12,52 @@
 }
 
 .helloText{
-    display: flex;
-    align-items: center;
     height: 100%;
     width:30%;
     padding: 5px 0;
     font-size: 30px;
     font-family: Ailerons;
     color: white;
+}
+
+.sideDrawerBtn{
+    position: absolute;
+    right:0;
+    height: 100%;
+    width:10%;
+}
+
+@media screen and (max-width: 1000px){
+    .helloText{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .helloText{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 733px){
+    .helloText{
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .Header{
+        height: 7%;
+    }
+
+    .helloText{
+        width:auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .sideDrawerBtn{
+        width: 60px;
+    }
 }
