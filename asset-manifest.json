@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Alive/static/css/main.76f4e144.chunk.css",
-    "main.js": "/Alive/static/js/main.7a0b4f44.chunk.js",
-    "main.js.map": "/Alive/static/js/main.7a0b4f44.chunk.js.map",
+    "main.css": "/Alive/static/css/main.e5e6a2d3.chunk.css",
+    "main.js": "/Alive/static/js/main.5cb66247.chunk.js",
+    "main.js.map": "/Alive/static/js/main.5cb66247.chunk.js.map",
     "runtime-main.js": "/Alive/static/js/runtime-main.f84e6a70.js",
     "runtime-main.js.map": "/Alive/static/js/runtime-main.f84e6a70.js.map",
-    "static/js/2.00035bd7.chunk.js": "/Alive/static/js/2.00035bd7.chunk.js",
-    "static/js/2.00035bd7.chunk.js.map": "/Alive/static/js/2.00035bd7.chunk.js.map",
+    "static/js/2.4eae3d69.chunk.js": "/Alive/static/js/2.4eae3d69.chunk.js",
+    "static/js/2.4eae3d69.chunk.js.map": "/Alive/static/js/2.4eae3d69.chunk.js.map",
     "index.html": "/Alive/index.html",
-    "precache-manifest.c8b6879a38e7e1f9d013e9d177f8d8ef.js": "/Alive/precache-manifest.c8b6879a38e7e1f9d013e9d177f8d8ef.js",
+    "precache-manifest.824525684489201c96b4f1f26c68e691.js": "/Alive/precache-manifest.824525684489201c96b4f1f26c68e691.js",
     "service-worker.js": "/Alive/service-worker.js",
-    "static/css/main.76f4e144.chunk.css.map": "/Alive/static/css/main.76f4e144.chunk.css.map",
-    "static/js/2.00035bd7.chunk.js.LICENSE.txt": "/Alive/static/js/2.00035bd7.chunk.js.LICENSE.txt",
+    "static/css/main.e5e6a2d3.chunk.css.map": "/Alive/static/css/main.e5e6a2d3.chunk.css.map",
+    "static/js/2.4eae3d69.chunk.js.LICENSE.txt": "/Alive/static/js/2.4eae3d69.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/Alive/static/media/1.5f547136.jpg",
     "static/media/10.jpg": "/Alive/static/media/10.bd5476aa.jpg",
     "static/media/11.jpg": "/Alive/static/media/11.38ae6df8.jpg",
@@ -23,7 +23,7 @@
     "static/media/7.jpg": "/Alive/static/media/7.6c1810dc.jpg",
     "static/media/8.jpg": "/Alive/static/media/8.35712d36.jpg",
     "static/media/9.jpg": "/Alive/static/media/9.8f0fe273.jpg",
-    "static/media/index.css": "/Alive/static/media/anurati.ca8632f4.otf",
+    "static/media/index.css": "/Alive/static/media/andromeda.95fb8b73.ttf",
     "static/media/Stuffs.css": "/Alive/static/media/backpcktest.a01331ab.jpg",
     "static/media/MaterialsPart.css": "/Alive/static/media/zip.d020a248.jpg",
     "static/media/clouds.png": "/Alive/static/media/clouds.308ee0f6.png",
@@ -40,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f84e6a70.js",
-    "static/js/2.00035bd7.chunk.js",
-    "static/css/main.76f4e144.chunk.css",
-    "static/js/main.7a0b4f44.chunk.js"
+    "static/js/2.4eae3d69.chunk.js",
+    "static/css/main.e5e6a2d3.chunk.css",
+    "static/js/main.5cb66247.chunk.js"
   ]
 }
