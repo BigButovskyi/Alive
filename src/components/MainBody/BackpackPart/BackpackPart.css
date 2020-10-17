@@ -41,3 +41,68 @@
     right: 5%;
     border-radius: 100px;
 }
+
+@media screen and (max-width: 1234px) {
+    .oval{
+        width: 30%;
+        height: 30%;
+        background: #211f1f;
+        top: 20%;
+        right: 15%;
+    }
+
+    .oval2{
+        width: 20%;
+        height: 20%;
+        background: #65fd9b;
+        top: 40%;
+        right: 20%;
+    }
+
+    .oval3{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .BackpackPart{
+        height: 700px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .oval{
+        width: 40%;
+        height: 30%;
+        background: #211f1f;
+        top: 20%;
+        right: 5%;
+    }
+
+    .oval2{
+        width: 30%;
+        height: 20%;
+        background: #65fd9b;
+        top: 40%;
+        right: 10%;
+    }
+
+    .oval3{
+        width: 70px;
+        height: 70px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .oval{
+display: none;
+    }
+
+    .oval2{
+        display: none;
+    }
+
+    .oval3{
+        width: 70px;
+        height: 70px;
+    }
+}

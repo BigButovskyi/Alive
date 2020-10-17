@@ -31,3 +31,15 @@
 .innerWrapper:hover{
     transform: translateX(0);
 }
+
+@media screen and (max-width: 1000px){
+    .innerWrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .outWrapper {
+        width: 80%;
+    }
+}

@@ -46,17 +46,40 @@
     background-size: cover;
 }
 
-/*.backpack img {*/
-/*    display: block;*/
-/*    object-fit: cover;*/
-/*    width: 100%;*/
-/*    margin: auto;*/
-/*    filter: drop-shadow(-5px -3px 8px black);*/
-/*}*/
-
 .items {
     position: relative;
     width: 65%;
     height: 80%;
     filter:grayscale(1);
+}
+
+@media screen and (max-width: 1234px) {
+    .backpack{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .backpack{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .backpack{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .backpack{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .backpack{
+        width: 250%;
+    }
 }

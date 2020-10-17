@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import classes from "./CarouselSection.css";
 import Carousel from "./Carousel/Carousel";
-import Aox from "../../../hoc/Aox/Aox";
 
 class carouselSection extends Component {
     state = {

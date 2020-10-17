@@ -63,3 +63,25 @@
 
     transition: 0.4s ease-out;
 }
+
+@media screen and (max-width: 1000px){
+    .map {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .LocationSection{
+        height: 1100px;
+    }
+
+    .locationWrapper {
+        flex-direction: column;
+        height: 80%;
+    }
+
+    .map{
+        border-radius: 0 50px 50px 0;
+        width: 80%;
+    }
+}

@@ -28,3 +28,19 @@
     width:auto;
     transition: 1s ease-out;
 }
+
+@media screen and (max-width: 1600px){
+    .CarouselSection{
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 1234px){
+    .CarouselSection{
+        height: 600px;
+    }
+
+    .carouselWrapper{
+        top:20%;
+    }
+}

@@ -12,7 +12,7 @@ const stuff = (props) => {
 
     return (
         <div className={className} style={style}>
-            <img className={imageClassname} src={imagePath} alt={props.name}/>
+            <img className={imageClassname + " " + classes.wrapper} src={imagePath} alt={props.name}/>
         </div>
     );
 

@@ -6,7 +6,7 @@
     font-family: Andromeda;
 }
 
-.MountainsSlide::after{
+.MountainsSlide::after {
     content: '';
     bottom: 0;
     position: absolute;
@@ -67,4 +67,34 @@
     width: 150%;
     opacity: 1;
     mix-blend-mode: soft-light;
+}
+
+@media screen and (max-width: 1100px) {
+    .alive {
+        font-size: 15em;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .alive {
+        font-size: 10em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .alive {
+        font-size: 7em;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .alive {
+        font-size: 6em;
+        letter-spacing: 0px;
+    }
+
+    .alive span {
+        margin: 0 40px;
+    }
+
 }
