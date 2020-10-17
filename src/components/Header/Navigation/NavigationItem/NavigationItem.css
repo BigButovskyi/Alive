@@ -27,6 +27,21 @@
     transition: 0.3s ease-out;
 }
 
-/*.NavigationItem:hover > .line{*/
-/*    width: 100%;*/
-/*}*/
+@media screen and (max-width: 1234px){
+    .text{
+        font-size:20px
+    }
+}
+
+@media screen and (max-width: 1040px){
+    .text{
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .text{
+        white-space: normal;
+        font-size: 15px;
+    }
+}
