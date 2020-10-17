@@ -1,0 +1,27 @@
+.SideDrawer{
+    position: fixed;
+    height: 93%;
+    width: 100%;
+    bottom:0;
+    z-index: 99;
+    background: #211f1fe3;
+
+    transition: 0.5s ease-out;
+}
+
+.navWrapper{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around;
+    margin-top:20%;
+}
+
+.navItem{
+    font-family: SecularOne;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding:10px;
+}
