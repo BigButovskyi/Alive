@@ -79,11 +79,18 @@
     .alive {
         font-size: 10em;
     }
+
+    .clouds {
+        width:300%;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .alive {
         font-size: 7em;
+    }
+    .clouds {
+        width:400%;
     }
 }
 
@@ -95,6 +102,9 @@
 
     .alive span {
         margin: 0 40px;
+    }
+    .clouds {
+        width:500%;
     }
 
 }
