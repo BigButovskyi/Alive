@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Alive/static/css/main.e5e6a2d3.chunk.css",
-    "main.js": "/Alive/static/js/main.5cb66247.chunk.js",
-    "main.js.map": "/Alive/static/js/main.5cb66247.chunk.js.map",
+    "main.js": "/Alive/static/js/main.3be55ff9.chunk.js",
+    "main.js.map": "/Alive/static/js/main.3be55ff9.chunk.js.map",
     "runtime-main.js": "/Alive/static/js/runtime-main.f84e6a70.js",
     "runtime-main.js.map": "/Alive/static/js/runtime-main.f84e6a70.js.map",
     "static/js/2.4eae3d69.chunk.js": "/Alive/static/js/2.4eae3d69.chunk.js",
     "static/js/2.4eae3d69.chunk.js.map": "/Alive/static/js/2.4eae3d69.chunk.js.map",
     "index.html": "/Alive/index.html",
-    "precache-manifest.824525684489201c96b4f1f26c68e691.js": "/Alive/precache-manifest.824525684489201c96b4f1f26c68e691.js",
+    "precache-manifest.ac65f8d25584ba7d67638ec36a12f2bd.js": "/Alive/precache-manifest.ac65f8d25584ba7d67638ec36a12f2bd.js",
     "service-worker.js": "/Alive/service-worker.js",
     "static/css/main.e5e6a2d3.chunk.css.map": "/Alive/static/css/main.e5e6a2d3.chunk.css.map",
     "static/js/2.4eae3d69.chunk.js.LICENSE.txt": "/Alive/static/js/2.4eae3d69.chunk.js.LICENSE.txt",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.f84e6a70.js",
     "static/js/2.4eae3d69.chunk.js",
     "static/css/main.e5e6a2d3.chunk.css",
-    "static/js/main.5cb66247.chunk.js"
+    "static/js/main.3be55ff9.chunk.js"
   ]
 }
