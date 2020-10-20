@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
     <meta
-      name="description"
-      content="Alive is more than just to be"
+            name="Alive website"
+            content="Alive is more than just to be"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png"/>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -27,20 +25,115 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Alive</title>
-  </head>
-  <body class="body">
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <style>
+        #loading_screen {
+            position: fixed;
+            z-index: 1000;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+        }
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        #loading_text {
+            height: auto;
+            width: auto;
+            background: #211f1f;
+            color: #FFF6F8;
+            padding: 50%;
+            text-transform: uppercase;
+            font-size: 10em;
+            font-family: Andromeda;
+        }
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+        #loading_text::after {
+            background: #211f1f;
+            content: '';
+            height: auto;
+            width: auto;
+        }
 
-  </body>
+        @keyframes aliveAppearing {
+            0% {
+                padding: 50%;
+            }
+
+            70% {
+                font-size: 10em;
+                padding: 20px;
+                border-radius: 10px;
+                transform: translateX(0%);
+            }
+
+            100% {
+                font-size: 10em;
+                transform: translateX(300%);
+                padding: 20px;
+                border-radius: 10px;
+            }
+
+
+        }
+
+
+    </style>
+</head>
+<body class="body">
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="loading_screen">
+    <div id="loading_text"></div>
+</div>
+<script>
+    let textEl = document.getElementById("loading_text");
+    let loadingScreen = document.getElementById('loading_screen');
+    let myInterval = setInterval(() => {
+        let innerText = textEl.innerText;
+        switch (innerText) {
+            case('L'):
+                textEl.textContent = 'lo';
+                break;
+            case('LO'):
+                textEl.textContent = 'loa';
+                break;
+            case('LOA'):
+                textEl.textContent = 'load';
+                break;
+            case('LOAD'):
+                textEl.textContent = 'loadi';
+                break;
+            case('LOADI'):
+                textEl.textContent = 'loadin';
+                break;
+            case('LOADIN'):
+                textEl.textContent = 'loading';
+                break;
+            case('LOADING'):
+                textEl.textContent = '';
+                break;
+            default:
+                textEl.textContent = 'l';
+                break;
+
+        }
+        if (loadingScreen.style.background == "transparent") {
+            textEl.textContent = 'loading';
+            clearInterval(myInterval);
+        }
+    }, 200)
+</script>
+<div id="root"></div>
+<!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+
+</body>
 </html>

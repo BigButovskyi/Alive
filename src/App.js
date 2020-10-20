@@ -8,11 +8,23 @@ let COMPONENTS = [];
 class App extends Component {
 
     componentDidMount() {
-        window.addEventListener("load", this.loaded);
+        window.addEventListener("load", function () {
+            let loadingScreen = document.getElementById('loading_screen');
+            loadingScreen.style.background = 'transparent';
+
+            let loadingEl = document.getElementById("loading_text");
+            loadingEl.style.animation = "aliveAppearing 3s ease-in-out forwards";
+            setTimeout(function () {
+                loadingScreen.style.display = "none";
+            }, 3000);
+        });
     }
 
     componentWillUnmount() {
-        window.removeEventListener("load", this.loaded);
+        window.removeEventListener("load", function () {
+            let loadingScreen = document.getElementById("loading_screen");
+            loadingScreen.style.display = "none";
+        });
     }
 
     isInViewport = (element, coef = 0.8) => {
